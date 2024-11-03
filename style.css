@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 14px;
+    align-items: center;
+    justify-content: center; 
+    background-color: aqua; 
+    font-size: 1.5rem; 
+    border: 2px solid; 
+    top: 20px;
+    right: 10px; 
+} 
+nav{
+   display: contents;
+}
+img{
+    width: 20%;
+    display: inline-block;
+    cursor: pointer;
+}
+.item{
+    background-color: orangered;
+}
+.icon{
+    font-size: 2rem;
+    display: none;
+}a:hover{
+    background-color: orangered;
+    border: 2px solid;
+    cursor: pointer;
+}
+.main-container{
+    background-image: url(https://img.freepik.com/free-photo/free-photo-happy-mothers-day-mom-child-love-background-wallpaper_1340-30801.jpg);
+    width: 100%;
+    border: 2px solid;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+     
+}
+.container{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    align-items: center;
+    font-size: 2rem;
+    position: absolute;
+}
+span{
+    background-color: orangered;
+    border: 2px solid;
+    width: 150px;
+    border-radius: 30px;
+}
+@media screen and (width < 500px) {
+    nav{
+        display: none;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+    }
+}
